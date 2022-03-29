@@ -2,8 +2,8 @@
 Clone da interface do serviço de streaming NETFLIX. Nessa clonagem o intuito é que ao invés de filmes ou séries o usuário pode ler mangás. Ao clicar na capa do mangá em questão o usuário será redirecionado ao site mangalivre.net.
 
 ## Linguagens utilizadas 💠
-  *HTML
-  *CSS
+  * HTML
+  * CSS
 
 ## Ações 👏
   ![netClone1](https://user-images.githubusercontent.com/84688951/160709050-c7fcdc2d-a3ce-4d92-966c-bc1e1a321a79.png)
