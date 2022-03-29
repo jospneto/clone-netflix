@@ -14,3 +14,7 @@ Clone da interface do serviço de streaming NETFLIX. Nessa clonagem o intuito é
   ![netClone3](https://user-images.githubusercontent.com/84688951/160709159-6489a8eb-37bc-4f9a-ad7d-432e36da6daf.png)
   ## Tela 4
   ![netClone4](https://user-images.githubusercontent.com/84688951/160710833-1d7947b2-bdfb-4170-8779-5a1e3d7d712b.png)
+ 
+## MangaLivre.net 📖
+É um site com milhares de mangás para o público em geral disponíveis de forma totalmente gratuita.
+![mangaLivre](https://user-images.githubusercontent.com/84688951/160711177-fe54b699-67ad-44ec-80c6-36f3e439fcb1.png)
