@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 120px, 1fr, 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav" "body" "rodape";
+    font-family: 'Martel Sans', sans-serif;
+    color: aliceblue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../img/capa2.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2rem;
+    text-shadow: black 0.1rem 0.1rem 0.2rem;
+    height: 250px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav li{
+    position: relative;
+    padding: 5px;
+}
+
+.nav h1{
+    color: #E50914;
+    text-shadow: black 0.1rem 0.1rem 0.2rem;
+}
+
+.nav a{
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: #E50914;
+}
+
+.nav .genero_sub{
+    display: none;
+    text-align: center;
+    left: 30px;
+    padding: 5px;
+    list-style: none;
+    background-color: #E50914;
+    border: 1px solid aliceblue;
+    position: absolute;
+}
+
+.nav li:hover .genero_sub{
+    display: block;
+}
+
+.nav .genero_sub a{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.nav .genero_sub a:hover{
+    color: black;
+}
+
+.nav .genero_sub h5{
+    text-shadow: black 0.1rem 0.1rem 0.2rem;
+}
+
+.body{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.body li{
+    padding: 5px;
+}
+
+.body a{
+    cursor: pointer;
+}
+
+.body a:hover{
+    max-width:400px;
+    max-height:350px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.body img{
+    max-width:400px;
+    max-height:350px;
+    width: 100%;
+    height: 100%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.rodape li{
+    padding: 5px;
+}
+
+.rodape h1{
+    color: #E50914
+}
+
+.rodape a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rodape a:hover{
+    color: #E50914
+}
+
